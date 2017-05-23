@@ -1,0 +1,16 @@
+{
+  "name": "markdown-render-boilerplate",
+  "version": "0.0.1",
+  "description": "Quick boilerplate to render markdown files",
+  "main": "index.html",
+  "scripts": {
+    "watch": "./node_modules/.bin/markdown-html -w -s ./node_modules/markdown-splendor/css/splendor.min.css in.md -o out.html",
+    "compile": "./node_modules/.bin/markdown-html -s ./node_modules/markdown-splendor/css/splendor.min.css in.md -o out.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-html": "^0.0.8",
+    "markdown-splendor": "^1.0.1"
+  }
+}
