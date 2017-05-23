@@ -9,4 +9,4 @@ npm install
 npm commands:
 
 `npm run watch` watching in.md for changes  
-`npm run start` compiles in.md
+`npm run compile` compiles in.md
